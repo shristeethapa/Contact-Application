@@ -1,0 +1,79 @@
+.wrapper {
+  background: url(bg1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.lockScreenTime {
+  font-size: 4rem;
+  font-weight: lighter;
+  background-color: rgba(255, 255, 255, 0.288);
+  margin: 0px 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+#appScreen {
+  display: none;
+}
+#contactListScreen {
+  display: none;
+}
+
+.phone {
+  background: url(phone.jpg) no-repeat center;
+  background-size: cover;
+}
+.phone {
+  height: 600px;
+  width: 300px;
+}
+
+.phone::-webkit-scrollbar {
+  display: none;
+}
+.notification {
+  background-color: rgb(48, 48, 48);
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+.sliderContainer {
+  top: 250px;
+  background-color: rgba(255, 255, 255, 0.288);
+}
+
+.slider {
+  appearance: none;
+  z-index: 99;
+  background-color: transparent;
+}
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 50%;
+  background: url(./arrow-right-circle.svg) no-repeat center;
+  background-size: cover;
+}
+
+.slider-label {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+#appScreen {
+  background-color: rgb(79, 79, 79);
+  backdrop-filter: blur(10px);
+}
+
+.searchIcon {
+  top: 3px;
+  right: 12px;
+}
+
+.icon {
+  cursor: pointer;
+}
